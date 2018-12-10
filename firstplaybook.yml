@@ -1,4 +1,4 @@
-- hosts: localhosts
+- hosts: webservers
   tasks:
    - name: create dir
      file: 
