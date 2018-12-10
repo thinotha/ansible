@@ -1,0 +1,6 @@
+- hosts: webservers
+  tasks:
+   - name: create dir
+     file: 
+       path: "/home/jenkins/thinotha"
+       state: directory
